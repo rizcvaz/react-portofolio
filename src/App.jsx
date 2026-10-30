@@ -40,7 +40,7 @@ function App() {
         <img
           src={DataImage.HeroImage}
           alt="Hero Image"
-          className="w-[500px] rounded-lg md:ml-auto [mask-image:linear-gradient(to_bottom,_zinc_70%,_transparent_100%)]"
+          className="w-125 rounded-lg md:ml-auto"
         />
       </div>
       {/* Section Tentang */}
