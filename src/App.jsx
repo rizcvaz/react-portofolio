@@ -85,6 +85,19 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="flex flex-col items-center shrink-0">
+        <img
+          src={DataImage.Penghargaan} 
+          alt="Lulusan Terbaik bersama Rektor"
+          className="mt-16 w-auto object-cover rounded-xl shadow-lg border border-zinc-700 mb-3"
+        />
+        <span className="px-3 py-1 text-center text-2xl font-semibold mb-2 rounded-full border border-violet-500/30">
+          Lulusan Terbaik 🏆
+        </span>
+        <span className="px-3 py-1 bg-violet-600/20 text-center text-1xl font-semibold mb-2 rounded-full border border-violet-500/30">
+          Prodi Informatika Universitas Peradaban Tahun 2026
+        </span>
+      </div>
         </div>
 
         <div className="tools mt-12">

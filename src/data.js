@@ -1,9 +1,11 @@
 import HeroImage from "/assets/hero_image.jpeg";
 import ProfilImage from "/assets/profil-image.jpeg";
+import Penghargaan from "/assets/Penghargaan.jpeg";
 
 const Image = {
   HeroImage,
   ProfilImage,
+  Penghargaan,
 };
 
 export default Image;
