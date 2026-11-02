@@ -56,11 +56,19 @@ function App() {
             className="w-12 rounded-md mb-10 sm:hidden"
           />
           <p className="text-base/loose mb-10">
-            Hi, Perkenalkan saya Moh. Rizki Risaleh, seorang Fullstack Web &
-            Mobile Developer, saya percaya bahwa desain dan fungsionalitas harus
-            berjalan beriringan, sehingga setiap proyek yang saya kembangkan
-            tidak hanya terlihat menarik tetapi juga memberikan pengalaman
-            pengguna yang optimal
+            Halo, perkenalkan saya{" "}
+            <span className="font-semibold text-white">Moh. Rizki Risaleh</span>
+            , yang berfokus sebagai{" "}
+            <span className="text-violet-400 font-medium">
+              Web & Mobile Developer
+            </span>
+            . Berpengalaman mengembangkan platform web visualisasi data di
+            Diskominfo Jawa Tengah serta aktif menggarap berbagai proyek{" "}
+            <i>freelance</i>. Menguasai <i>tech stack</i> modern seperti
+            Laravel, React JS, Next JS, Kotlin, MySQL, dan PostgreSQL. Saya
+            percaya bahwa arsitektur kode yang bersih dan antarmuka yang
+            responsif adalah kunci utama dalam menghadirkan solusi perangkat
+            lunak yang efisien serta andal.
           </p>
           <div className="flex items-center justify-between">
             <img
@@ -78,6 +86,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className="tools mt-12">
           <h1 className="text-4xl/snug font-bold mb-4">Tools yang dipakai</h1>
           <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full opacity-50">

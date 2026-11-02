@@ -111,8 +111,8 @@ export const listTools = [
 import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek2 from "/assets/proyek/proyek2.jpg";
 import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
+import Proyek4 from "/assets/proyek/proyek4.jpg";
+import Proyek5 from "/assets/proyek/proyek5.jpg";
 import Proyek6 from "/assets/proyek/proyek6.webp";
 
 export const listProyek = [
@@ -146,28 +146,28 @@ export const listProyek = [
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Web Sistem Akademik",
+    desk: "Proyek ini merupakan tugas akademik yang bertujuan sebagai sistem manajemen kampus dengan fitur menu: Role admin, mahasiswa, dosen, menu mata kuliah, krs, KHS, dan rekap presensi",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "500",
-    link: ""
+    link: "https://sistem-akademik.free.nf/auth"
   },
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Web Pencatatan Transaksi Toko",
+    desk: "Proyek freelance ini merupakan sistem pencatatan transaksi toko yang dilengkapi fitur: pencatatan transaksi dan barang yang dikirim, menu laporan, serta reminder email secara otomatis",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
     dad: "600",
-    link: ""
+    link: "https://milnkys.my.id"
   },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
-    link: ""
-  },
+  // {
+  //   id: 6,
+  //   gambar: Proyek6,
+  //   nama: "Company Profile 2.0",
+  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+  //   tools: ["NextJS", "TailwindCSS", "Framermotion"],
+  //   dad: "700",
+  //   link: ""
+  // },
 ];
